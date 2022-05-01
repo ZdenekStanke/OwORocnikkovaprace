@@ -1,0 +1,21 @@
+*{
+    user-select: none;
+    overflow: hidden;
+    font-family: 'Press Start 2P', cursive;
+    background-color: black;
+    background-image: url("../images/pxArt (3).png");
+
+}
+H1{
+
+    left: 0;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 20%;
+    background-image: url("../images/pxArt (3).png");
+    text-align: center;
+    color: blue;
+    font-size: 75px;
+
+}

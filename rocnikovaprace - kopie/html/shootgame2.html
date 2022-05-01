@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../style/shootgame2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+
+</head>
+<div id="okno">
+    <div id="healthBar"> </div>
+    <div class="enemy " id="enemy1" onclick="iShoot(this)" > <img src="../images/pngaaa.com-2631673.png" height="400px"> </div>
+    <div class="enemy " id="enemy2" onclick="iShoot(this)"> <img src="../images/pngaaa.com-2631673.png" height="400px"> </div>
+    <div class="enemy " id="enemy3" onclick="iShoot(this)"> <img src="../images/pngaaa.com-2631673.png" height="400px"></div>
+    <div class="enemy " id="enemy4" onclick="iShoot(this)"> <img src="../images/pngaaa.com-2631673.png" height="400px"> </div>
+
+
+    <button onclick="newGame()" > Pokračovat     </button>
+
+</div>
+<div id="heroWonScreen">
+    Hrdina vyhrál!<br>
+    <a href="victory.html">Pokracovat</a>
+</div>
+<div id="enemyWonScreen">
+    Prohrál jsi!<br>
+    <a href="shootgame2.html">Opakovat</a>
+</div>
+
+
+<script src="../js/shootgame.js"></script>
+</body>
+</html>

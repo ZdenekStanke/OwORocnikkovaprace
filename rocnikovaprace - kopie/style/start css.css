@@ -1,0 +1,71 @@
+*{
+    user-select: none;
+    overflow: hidden;
+    font-family: 'Press Start 2P', cursive;
+}
+body{
+    font-size: 20px;
+    background-color: black;
+    color: white;
+
+    margin: 0;
+    width: 100%;
+
+
+}
+
+a{
+    color: rgb(255, 238, 0);
+    text-decoration: none;
+}
+
+#okno{
+    background: url("../images/death_star_by_adigitalsm1ley_slider_crop.png") no-repeat;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+
+}
+#text{
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+
+}
+#hora{
+
+    position: absolute;
+    left: 1%;
+    top: 1%;
+
+    width: 50%;
+    height:100%;
+
+
+}
+#hora:hover{
+    background-color: rgba(256,256,256,.5);
+
+}
+
+a:hover {
+    color: red;
+}
+#hrad{
+
+    position: absolute;
+    left: 50%;
+    top: 1%;
+
+    width: 50%;
+    height: 100%;
+
+
+}
+#hrad:hover{
+    background-color: rgba(256,256,256,.5);
+}

@@ -1,0 +1,128 @@
+*{
+    user-select: none;
+    overflow: hidden;
+    font-family: 'Press Start 2P', cursive;
+}
+#okno{
+    background-image: url("../images/philip-gilbert-5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+body{
+    background-color: black;
+    margin: 0;
+    width: 100%;
+}
+#hrdina{
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+
+}
+#hrdina2, #hrdina3{
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+    z-index: 1;
+
+}
+H2{
+    position: absolute;
+    left: 45%;
+    right: 45%;
+    text-align: center;
+    color: red;
+    font-family: 'Press Start 2P', cursive;
+}
+#enemy{
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+}
+#enemy2, #enemy3{
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+}
+#menu {
+    position: absolute;
+    bottom: 5%;
+    left: 30%;
+    width: 40%;
+    height: 15%;
+    background-color: rgba(0,0,100,.7);
+    border: 2px solid white ;
+    border-radius:10px 10px 10px 10px;
+    color: white;
+    font-size: 25px;
+    padding-left: 40px;
+    font-family: sans-serif;
+}
+p, ul, li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+
+}
+ul{
+    color: rgb(255, 238, 0);
+}
+li:hover{
+    color: #ff2222;
+}
+li{
+    list-style: none;
+}
+li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.health-bar {
+    padding-top: 10px;
+    width: 25%;
+    margin-left: 3%;
+}
+
+.health-bar-info {
+    transition: .2s;
+    width: 100%;
+    height: 40px;
+    background: #ff2222;
+}
+
+#enemyHealth {
+    position: absolute;
+    right: 3%;
+    top: 0;
+}
+
+#heroWonScreen, #enemyWonScreen {
+    display: none;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100vw;
+    height: 50%;
+    padding-top: 20%;
+    text-align: center;
+    color: white;
+    font-size: 75px;
+}
+
+#heroWonScreen > a, #enemyWonScreen > a {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(255, 238, 0);
+    text-decoration: none;
+}
+#heroWonScreen > a:hover, #enemyWonScreen > a:hover {
+    color: #ff2222; 
+}
+
+
+#heroWonScreen > a:hover, #enemyWonScreen > a:hover {
+    opacity: .9;
+}

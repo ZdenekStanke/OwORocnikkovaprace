@@ -1,0 +1,74 @@
+*{
+    user-select: none;
+    overflow: hidden;
+    font-family: 'Press Start 2P', cursive;
+}
+body{
+    font-size: 20px;
+    background-color: black;
+    color: white;
+
+    margin: 0;
+    width: 100%;
+}
+
+a{
+    color: rgb(255, 238, 0);
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+}
+
+#okno{
+    background: url("../images/vader.png") no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+#text{
+    padding: 15px 15px 15px 15px;
+    margin: auto;
+    position: absolute;
+    top: 90%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+
+}
+#utek{
+
+    position: absolute;
+    left: 1%;
+    top: 1%;
+
+    width: 50%;
+    height: 100%;
+    opacity: 0;
+
+
+}
+#utek:hover{
+    background-color: rgba(256,256,256,.5);
+    opacity: 1;
+
+}
+#boj{
+
+    position: absolute;
+    left: 50%;
+    top: 1%;
+
+    width: 50%;
+    height: 100%;
+    opacity: 0;
+
+
+}
+#boj:hover{
+    background-color: rgba(256,256,256,.5);
+    opacity: 1;
+}

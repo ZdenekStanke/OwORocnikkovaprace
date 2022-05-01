@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../style/pravacesta.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+</head>
+<body onload="setEnemyHealth(100); setHeroHealth(100)">
+<div id="okno">
+
+    <h2>Finall BOSS </h2>
+    <img src="../images/hero.png" id="hrdina" height="500">
+    <img src="../images/hero.png" id="hrdina2" height="500">
+    <img src="../images/hero.png" id="hrdina3" height="500">
+    <img src="../images/NicePng_palpatine-png_2253969.png" id="enemy" height="500">
+    <img src="../images/NicePng_palpatine-png_2253969.png" id="enemy2" height="500">
+    <img src="../images/NicePng_palpatine-png_2253969.png" id="enemy3" height="500">
+    <div class="health-bar" id="heroHealth">
+        <div class="health-bar-info" id="heroHealthBar"></div>
+    </div>
+    <div class="health-bar" id="enemyHealth">
+        <div class="health-bar-info" id="enemyHealthBar"></div>
+    </div>
+    <div id="menu">
+        <p>
+            Co uděláš ??
+        </p>
+        <ul>
+            <li onclick="boj()">Fight</li>
+            <li onclick="block()">Block</li>
+        </ul>
+    </div>
+    <div id="heroWonScreen">
+        Hrdina vyhrál!<br>
+        <a href="shootgame2.html">Pokracovat</a>
+    </div>
+    <div id="enemyWonScreen">
+        Prohrál jsi!<br>
+        <a href="pravacesta.html">Opakovat</a>
+    </div>
+</div>
+<script src="../js/pravacesta.js"></script>
+</body>
+</html>

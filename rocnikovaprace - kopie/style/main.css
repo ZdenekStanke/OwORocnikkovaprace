@@ -1,0 +1,55 @@
+*{
+    user-select: none;
+    overflow: hidden;
+    font-family: 'Press Start 2P', cursive;
+}
+body {
+    font-size: 20px;
+    background-color: white;
+    color: white;
+    margin: 0;
+    width: 100%;
+
+
+}
+
+h1 {
+
+    font-size: 50px;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    left: 80px;
+    color: yellow;
+    text-align: center;
+}
+
+a {
+    color: rgb(255, 238, 0);
+    text-decoration: none;
+}
+
+
+#okno {
+    background: url("../images/screen1.png") no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+a:hover {
+    color: red;
+}
+
+#text {
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+
+
+}

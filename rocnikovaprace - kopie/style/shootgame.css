@@ -1,0 +1,106 @@
+*{
+    user-select: none;
+    overflow: hidden;
+    font-family: 'Press Start 2P', cursive;
+}
+body{
+    background-color: black;
+    margin: 0;
+    width: 100%;
+}
+
+#okno {
+    background-color: black;
+    top: 20px;
+    left: 20px;
+    overflow: hidden;
+    background-image:url("../images/TBqbFy.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 100vh;
+    cursor: crosshair;
+
+}
+
+#healthBar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 100%;
+    background-color: red;
+    transition:  width .5s;
+
+}
+.enemy {
+     position: absolute;
+    bottom: -50%;
+     transition: all .5s;
+
+ }
+.enemy.showing {
+      bottom: 0px;
+  }
+.enemy.shooting {
+    background-color: red;
+}
+
+button{
+    color: rgb(255, 238, 0);
+}
+button:hover{
+    color: red;
+}
+
+
+#enemy1 {left: 20%;}
+#enemy2 {left: 40%;}
+#enemy3 {left: 60%; }
+#enemy4 { left: 80%;}
+#enemy5 { left: 45%; }
+
+.enemy.dead {
+
+    height:5px ;
+}
+button {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(256,256,256,.5);
+    border: 0;
+    box-shadow: none;
+
+    font-size: 5em;
+    letter-spacing: -2px;
+    opacity : 0.5;
+}
+
+#heroWonScreen, #enemyWonScreen {
+    display: none;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 20%;
+    background: rgba(0,0,0,.6);
+    text-align: center;
+    color: white;
+    font-size: 75px;
+}
+
+#heroWonScreen > a, #enemyWonScreen > a {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(255, 238, 0);
+    text-decoration: none;
+}
+#heroWonScreen > a:hover, #enemyWonScreen > a:hover {
+    color: #ff2222; 
+}
+
+
+#heroWonScreen > a:hover, #enemyWonScreen > a:hover {
+    opacity: .9;
+}
